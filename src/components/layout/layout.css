@@ -1,0 +1,18 @@
+.page-block {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+    box-shadow: 0 0 25px 20px black;
+}
+
+.content {
+    height: calc(100vh - 40px);
+}
+
+.footer {
+
+}
+

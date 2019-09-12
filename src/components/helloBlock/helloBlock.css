@@ -1,0 +1,36 @@
+.hello-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    opacity: 1;
+ }
+
+.hello-title {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.hello-text {
+    color: white;
+    margin-bottom: 35px;
+}
+
+.hello-btn {
+    background-color: white;
+    border-radius: 12px;
+    border: 2px solid darkolivegreen;
+    padding: 5px;
+    width: 100%;
+    font-size: 16px;
+    text-transform: uppercase;
+    outline: none;
+    font-weight: bold;
+}
+
+.hello-btn:hover {
+    background-color: darkolivegreen;
+    border-color: orange;
+    color: white;
+}

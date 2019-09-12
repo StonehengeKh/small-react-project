@@ -1,0 +1,14 @@
+.error-page {
+    background: url("../../assets/-sprayer.jpg") 0 50% no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    box-shadow: 0 0 15px 5px black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 15px;
+    text-transform: uppercase;
+}
+

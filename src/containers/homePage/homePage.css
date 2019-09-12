@@ -1,0 +1,18 @@
+.home-page {
+    background: url("../../assets/-sprayer.jpg") 0 50% no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    box-shadow: 0 0 15px 5px black;
+    position: relative;
+}
+.home-page-block {
+    position: absolute;
+    top: 160px;
+    right: 200px;
+    width: 25%;
+    min-height: 22%;
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 15px;
+}

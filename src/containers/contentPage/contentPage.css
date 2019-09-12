@@ -1,0 +1,69 @@
+.lesson-page {
+    background: url("../../assets/-sprayer.jpg") 0 50% no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    box-shadow: 0 0 15px 5px black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 15px;
+}
+
+.lesson {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.img-center {
+    text-align: center;
+}
+
+.lesson-img {
+    width: 50%;
+}
+
+.block-text {
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 90%;
+    margin: 10px;
+}
+
+.lesson-text {
+    padding: 10px;
+    color: white;
+}
+
+.lesson-btn {
+    background-color: white;
+    border-radius: 12px;
+    border: 2px solid darkolivegreen;
+    padding: 5px;
+    width: 89%;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    outline: none;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.lesson-btn:hover {
+    background-color: darkolivegreen;
+    border-color: orange;
+    color: white;
+}
